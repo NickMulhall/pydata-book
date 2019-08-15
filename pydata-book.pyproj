@@ -1,0 +1,202 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" DefaultTargets="Build">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{11542c25-45ee-41ea-b937-8363036245f8}</ProjectGuid>
+    <ProjectHome />
+    <StartupFile />
+    <SearchPath />
+    <WorkingDirectory>.</WorkingDirectory>
+    <OutputPath>.</OutputPath>
+    <ProjectTypeGuids>{888888a0-9f3d-457c-b088-3a5042f75d52}</ProjectTypeGuids>
+    <LaunchProvider>Standard Python launcher</LaunchProvider>
+    <InterpreterId>MSBuild|env1|$(MSBuildProjectFullPath)</InterpreterId>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)' == 'Debug'" />
+  <PropertyGroup Condition="'$(Configuration)' == 'Release'" />
+  <PropertyGroup>
+    <VisualStudioVersion Condition=" '$(VisualStudioVersion)' == '' ">10.0</VisualStudioVersion>
+  </PropertyGroup>
+  <ItemGroup>
+    <Content Include="appa.ipynb" />
+    <Content Include="ch02.ipynb" />
+    <Content Include="ch03.ipynb" />
+    <Content Include="ch04.ipynb" />
+    <Content Include="ch05.ipynb" />
+    <Content Include="ch06.ipynb" />
+    <Content Include="ch07.ipynb" />
+    <Content Include="ch08.ipynb" />
+    <Content Include="ch09.ipynb" />
+    <Content Include="ch10.ipynb" />
+    <Content Include="ch11.ipynb" />
+    <Content Include="ch12.ipynb" />
+    <Content Include="ch13.ipynb" />
+    <Content Include="ch14.ipynb" />
+    <Content Include="datasets\babynames\yob1880.txt" />
+    <Content Include="datasets\babynames\yob1881.txt" />
+    <Content Include="datasets\babynames\yob1882.txt" />
+    <Content Include="datasets\babynames\yob1883.txt" />
+    <Content Include="datasets\babynames\yob1884.txt" />
+    <Content Include="datasets\babynames\yob1885.txt" />
+    <Content Include="datasets\babynames\yob1886.txt" />
+    <Content Include="datasets\babynames\yob1887.txt" />
+    <Content Include="datasets\babynames\yob1888.txt" />
+    <Content Include="datasets\babynames\yob1889.txt" />
+    <Content Include="datasets\babynames\yob1890.txt" />
+    <Content Include="datasets\babynames\yob1891.txt" />
+    <Content Include="datasets\babynames\yob1892.txt" />
+    <Content Include="datasets\babynames\yob1893.txt" />
+    <Content Include="datasets\babynames\yob1894.txt" />
+    <Content Include="datasets\babynames\yob1895.txt" />
+    <Content Include="datasets\babynames\yob1896.txt" />
+    <Content Include="datasets\babynames\yob1897.txt" />
+    <Content Include="datasets\babynames\yob1898.txt" />
+    <Content Include="datasets\babynames\yob1899.txt" />
+    <Content Include="datasets\babynames\yob1900.txt" />
+    <Content Include="datasets\babynames\yob1901.txt" />
+    <Content Include="datasets\babynames\yob1902.txt" />
+    <Content Include="datasets\babynames\yob1903.txt" />
+    <Content Include="datasets\babynames\yob1904.txt" />
+    <Content Include="datasets\babynames\yob1905.txt" />
+    <Content Include="datasets\babynames\yob1906.txt" />
+    <Content Include="datasets\babynames\yob1907.txt" />
+    <Content Include="datasets\babynames\yob1908.txt" />
+    <Content Include="datasets\babynames\yob1909.txt" />
+    <Content Include="datasets\babynames\yob1910.txt" />
+    <Content Include="datasets\babynames\yob1911.txt" />
+    <Content Include="datasets\babynames\yob1912.txt" />
+    <Content Include="datasets\babynames\yob1913.txt" />
+    <Content Include="datasets\babynames\yob1914.txt" />
+    <Content Include="datasets\babynames\yob1915.txt" />
+    <Content Include="datasets\babynames\yob1916.txt" />
+    <Content Include="datasets\babynames\yob1917.txt" />
+    <Content Include="datasets\babynames\yob1918.txt" />
+    <Content Include="datasets\babynames\yob1919.txt" />
+    <Content Include="datasets\babynames\yob1920.txt" />
+    <Content Include="datasets\babynames\yob1921.txt" />
+    <Content Include="datasets\babynames\yob1922.txt" />
+    <Content Include="datasets\babynames\yob1923.txt" />
+    <Content Include="datasets\babynames\yob1924.txt" />
+    <Content Include="datasets\babynames\yob1925.txt" />
+    <Content Include="datasets\babynames\yob1926.txt" />
+    <Content Include="datasets\babynames\yob1927.txt" />
+    <Content Include="datasets\babynames\yob1928.txt" />
+    <Content Include="datasets\babynames\yob1929.txt" />
+    <Content Include="datasets\babynames\yob1930.txt" />
+    <Content Include="datasets\babynames\yob1931.txt" />
+    <Content Include="datasets\babynames\yob1932.txt" />
+    <Content Include="datasets\babynames\yob1933.txt" />
+    <Content Include="datasets\babynames\yob1934.txt" />
+    <Content Include="datasets\babynames\yob1935.txt" />
+    <Content Include="datasets\babynames\yob1936.txt" />
+    <Content Include="datasets\babynames\yob1937.txt" />
+    <Content Include="datasets\babynames\yob1938.txt" />
+    <Content Include="datasets\babynames\yob1939.txt" />
+    <Content Include="datasets\babynames\yob1940.txt" />
+    <Content Include="datasets\babynames\yob1941.txt" />
+    <Content Include="datasets\babynames\yob1942.txt" />
+    <Content Include="datasets\babynames\yob1943.txt" />
+    <Content Include="datasets\babynames\yob1944.txt" />
+    <Content Include="datasets\babynames\yob1945.txt" />
+    <Content Include="datasets\babynames\yob1946.txt" />
+    <Content Include="datasets\babynames\yob1947.txt" />
+    <Content Include="datasets\babynames\yob1948.txt" />
+    <Content Include="datasets\babynames\yob1949.txt" />
+    <Content Include="datasets\babynames\yob1950.txt" />
+    <Content Include="datasets\babynames\yob1951.txt" />
+    <Content Include="datasets\babynames\yob1952.txt" />
+    <Content Include="datasets\babynames\yob1953.txt" />
+    <Content Include="datasets\babynames\yob1954.txt" />
+    <Content Include="datasets\babynames\yob1955.txt" />
+    <Content Include="datasets\babynames\yob1956.txt" />
+    <Content Include="datasets\babynames\yob1957.txt" />
+    <Content Include="datasets\babynames\yob1958.txt" />
+    <Content Include="datasets\babynames\yob1959.txt" />
+    <Content Include="datasets\babynames\yob1960.txt" />
+    <Content Include="datasets\babynames\yob1961.txt" />
+    <Content Include="datasets\babynames\yob1962.txt" />
+    <Content Include="datasets\babynames\yob1963.txt" />
+    <Content Include="datasets\babynames\yob1964.txt" />
+    <Content Include="datasets\babynames\yob1965.txt" />
+    <Content Include="datasets\babynames\yob1966.txt" />
+    <Content Include="datasets\babynames\yob1967.txt" />
+    <Content Include="datasets\babynames\yob1968.txt" />
+    <Content Include="datasets\babynames\yob1969.txt" />
+    <Content Include="datasets\babynames\yob1970.txt" />
+    <Content Include="datasets\babynames\yob1971.txt" />
+    <Content Include="datasets\babynames\yob1972.txt" />
+    <Content Include="datasets\babynames\yob1973.txt" />
+    <Content Include="datasets\babynames\yob1974.txt" />
+    <Content Include="datasets\babynames\yob1975.txt" />
+    <Content Include="datasets\babynames\yob1976.txt" />
+    <Content Include="datasets\babynames\yob1977.txt" />
+    <Content Include="datasets\babynames\yob1978.txt" />
+    <Content Include="datasets\babynames\yob1979.txt" />
+    <Content Include="datasets\babynames\yob1980.txt" />
+    <Content Include="datasets\babynames\yob1981.txt" />
+    <Content Include="datasets\babynames\yob1982.txt" />
+    <Content Include="datasets\babynames\yob1983.txt" />
+    <Content Include="datasets\babynames\yob1984.txt" />
+    <Content Include="datasets\babynames\yob1985.txt" />
+    <Content Include="datasets\babynames\yob1986.txt" />
+    <Content Include="datasets\babynames\yob1987.txt" />
+    <Content Include="datasets\babynames\yob1988.txt" />
+    <Content Include="datasets\babynames\yob1989.txt" />
+    <Content Include="datasets\babynames\yob1990.txt" />
+    <Content Include="datasets\babynames\yob1991.txt" />
+    <Content Include="datasets\babynames\yob1992.txt" />
+    <Content Include="datasets\babynames\yob1993.txt" />
+    <Content Include="datasets\babynames\yob1994.txt" />
+    <Content Include="datasets\babynames\yob1995.txt" />
+    <Content Include="datasets\babynames\yob1996.txt" />
+    <Content Include="datasets\babynames\yob1997.txt" />
+    <Content Include="datasets\babynames\yob1998.txt" />
+    <Content Include="datasets\babynames\yob1999.txt" />
+    <Content Include="datasets\babynames\yob2000.txt" />
+    <Content Include="datasets\babynames\yob2001.txt" />
+    <Content Include="datasets\babynames\yob2002.txt" />
+    <Content Include="datasets\babynames\yob2003.txt" />
+    <Content Include="datasets\babynames\yob2004.txt" />
+    <Content Include="datasets\babynames\yob2005.txt" />
+    <Content Include="datasets\babynames\yob2006.txt" />
+    <Content Include="datasets\babynames\yob2007.txt" />
+    <Content Include="datasets\babynames\yob2008.txt" />
+    <Content Include="datasets\babynames\yob2009.txt" />
+    <Content Include="datasets\babynames\yob2010.txt" />
+    <Content Include="datasets\bitly_usagov\example.txt" />
+    <Content Include="datasets\haiti\PortAuPrince_Roads\PortAuPrince_Roads_README.txt" />
+    <Content Include="datasets\haiti\PortAuPrince_Roads\PortAuPrince_Roads_sample.jpg" />
+    <Content Include="examples\array_ex.txt" />
+    <Content Include="examples\ex3.txt" />
+    <Content Include="examples\fdic_failed_bank_list.html" />
+    <Content Include="examples\segismundo.txt" />
+    <Content Include="examples\stinkbug.png" />
+    <Content Include="requirements.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="datasets\mta_perf\parse.py" />
+    <Compile Include="examples\ipython_bug.py" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="datasets\" />
+    <Folder Include="datasets\babynames" />
+    <Folder Include="datasets\bitly_usagov" />
+    <Folder Include="datasets\haiti\" />
+    <Folder Include="datasets\haiti\PortAuPrince_Roads" />
+    <Folder Include="datasets\mta_perf" />
+    <Folder Include="examples" />
+  </ItemGroup>
+  <ItemGroup>
+    <Interpreter Include="env1\">
+      <Id>env1</Id>
+      <Version>3.7</Version>
+      <Description>env1 (Python 3.7 (64-bit))</Description>
+      <InterpreterPath>Scripts\python.exe</InterpreterPath>
+      <WindowsInterpreterPath>Scripts\pythonw.exe</WindowsInterpreterPath>
+      <PathEnvironmentVariable>PYTHONPATH</PathEnvironmentVariable>
+      <Architecture>X64</Architecture>
+    </Interpreter>
+  </ItemGroup>
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
+</Project>
