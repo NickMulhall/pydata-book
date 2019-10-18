@@ -11,4 +11,4 @@
 jupyter
 requests
 
-#libs added manually = numpy, matplotlib (required pip 19.2.2)
+#libs added manually = numpy, matplotlib (required pip 19.2.2), numpy, pandas

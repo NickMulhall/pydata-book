@@ -5,13 +5,14 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>{11542c25-45ee-41ea-b937-8363036245f8}</ProjectGuid>
     <ProjectHome />
-    <StartupFile />
+    <StartupFile>myCode\TestLibrary.py</StartupFile>
     <SearchPath />
     <WorkingDirectory>.</WorkingDirectory>
     <OutputPath>.</OutputPath>
     <ProjectTypeGuids>{888888a0-9f3d-457c-b088-3a5042f75d52}</ProjectTypeGuids>
     <LaunchProvider>Standard Python launcher</LaunchProvider>
     <InterpreterId>MSBuild|env1|$(MSBuildProjectFullPath)</InterpreterId>
+    <TestFramework>Pytest</TestFramework>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)' == 'Debug'" />
   <PropertyGroup Condition="'$(Configuration)' == 'Release'" />
@@ -177,6 +178,9 @@
   <ItemGroup>
     <Compile Include="datasets\mta_perf\parse.py" />
     <Compile Include="examples\ipython_bug.py" />
+    <Compile Include="myCode\TestLibrary.py">
+      <SubType>Code</SubType>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <Folder Include="datasets\" />
@@ -186,6 +190,7 @@
     <Folder Include="datasets\haiti\PortAuPrince_Roads" />
     <Folder Include="datasets\mta_perf" />
     <Folder Include="examples" />
+    <Folder Include="myCode\" />
   </ItemGroup>
   <ItemGroup>
     <Interpreter Include="env1\">
