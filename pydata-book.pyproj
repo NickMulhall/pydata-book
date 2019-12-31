@@ -5,7 +5,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>{11542c25-45ee-41ea-b937-8363036245f8}</ProjectGuid>
     <ProjectHome />
-    <StartupFile>myCode\TestLibrary.py</StartupFile>
+    <StartupFile>myCode\MLKNearestNeighbor.py</StartupFile>
     <SearchPath />
     <WorkingDirectory>.</WorkingDirectory>
     <OutputPath>.</OutputPath>
@@ -166,8 +166,12 @@
     <Content Include="datasets\babynames\yob2009.txt" />
     <Content Include="datasets\babynames\yob2010.txt" />
     <Content Include="datasets\bitly_usagov\example.txt" />
+    <Content Include="datasets\consumption\360.csv" />
     <Content Include="datasets\haiti\PortAuPrince_Roads\PortAuPrince_Roads_README.txt" />
     <Content Include="datasets\haiti\PortAuPrince_Roads\PortAuPrince_Roads_sample.jpg" />
+    <Content Include="datasets\housing\Housing.csv" />
+    <Content Include="datasets\nltk speech codes\nltk speech codes.txt" />
+    <Content Include="datasets\plants\Plants.csv" />
     <Content Include="examples\array_ex.txt" />
     <Content Include="examples\ex3.txt" />
     <Content Include="examples\fdic_failed_bank_list.html" />
@@ -178,6 +182,18 @@
   <ItemGroup>
     <Compile Include="datasets\mta_perf\parse.py" />
     <Compile Include="examples\ipython_bug.py" />
+    <Compile Include="myCode\AzureConsumptionAnalysis.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="myCode\MLLinearRegression.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="myCode\MLKNearestNeighbor.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="myCode\NaturalLanguage.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="myCode\TestLibrary.py">
       <SubType>Code</SubType>
     </Compile>
@@ -186,9 +202,13 @@
     <Folder Include="datasets\" />
     <Folder Include="datasets\babynames" />
     <Folder Include="datasets\bitly_usagov" />
+    <Folder Include="datasets\consumption\" />
     <Folder Include="datasets\haiti\" />
     <Folder Include="datasets\haiti\PortAuPrince_Roads" />
     <Folder Include="datasets\mta_perf" />
+    <Folder Include="datasets\housing\" />
+    <Folder Include="datasets\plants\" />
+    <Folder Include="datasets\nltk speech codes\" />
     <Folder Include="examples" />
     <Folder Include="myCode\" />
   </ItemGroup>

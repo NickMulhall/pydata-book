@@ -73,9 +73,7 @@ def showit():
     x = np.arange(0, radians(1000), radians(12))
     plt.plot(x, np.cos(x), 'b')
     plt.show()
-showit()
-
-
+#showit()
 
 
 
