@@ -1,5 +1,4 @@
 import pandas as pd
-import logging
 import pickle
 import numpy as np
 import os
@@ -13,8 +12,8 @@ from nltk.stem import WordNetLemmatizer
 from nltk.tokenize import TweetTokenizer
 from nltk.corpus import stopwords
 from nltk.stem.snowball import SnowballStemmer
-import MeCab
-import unicodedata
+#import MeCab
+#import unicodedata
 from polyglot.text import Text
 from polyglot.downloader import downloader
 from nltk.sentiment.vader import SentimentIntensityAnalyzer as SIA
