@@ -5,7 +5,8 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>{11542c25-45ee-41ea-b937-8363036245f8}</ProjectGuid>
     <ProjectHome />
-    <StartupFile>myCode\AgeGating.py</StartupFile>
+    <StartupFile>
+    </StartupFile>
     <SearchPath />
     <WorkingDirectory>.</WorkingDirectory>
     <OutputPath>.</OutputPath>
@@ -34,8 +35,6 @@
     <Content Include="ch12.ipynb" />
     <Content Include="ch13.ipynb" />
     <Content Include="ch14.ipynb" />
-    <Content Include="datasets\age_gating\age_lexicon.csv" />
-    <Content Include="datasets\age_gating\english_api_table_raw.csv" />
     <Content Include="datasets\babynames\yob1880.txt" />
     <Content Include="datasets\babynames\yob1881.txt" />
     <Content Include="datasets\babynames\yob1882.txt" />
@@ -168,7 +167,6 @@
     <Content Include="datasets\babynames\yob2009.txt" />
     <Content Include="datasets\babynames\yob2010.txt" />
     <Content Include="datasets\bitly_usagov\example.txt" />
-    <Content Include="datasets\consumption\360.csv" />
     <Content Include="datasets\haiti\PortAuPrince_Roads\PortAuPrince_Roads_README.txt" />
     <Content Include="datasets\haiti\PortAuPrince_Roads\PortAuPrince_Roads_sample.jpg" />
     <Content Include="datasets\housing\Housing.csv" />
@@ -193,9 +191,6 @@
     <Compile Include="myCode\MLKNearestNeighbor.py">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="myCode\AgeGating.py">
-      <SubType>Code</SubType>
-    </Compile>
     <Compile Include="myCode\NaturalLanguage.py">
       <SubType>Code</SubType>
     </Compile>
@@ -207,12 +202,10 @@
     <Folder Include="datasets\" />
     <Folder Include="datasets\babynames" />
     <Folder Include="datasets\bitly_usagov" />
-    <Folder Include="datasets\consumption\" />
     <Folder Include="datasets\haiti\" />
     <Folder Include="datasets\haiti\PortAuPrince_Roads" />
     <Folder Include="datasets\mta_perf" />
     <Folder Include="datasets\housing\" />
-    <Folder Include="datasets\age_gating\" />
     <Folder Include="datasets\plants\" />
     <Folder Include="datasets\nltk speech codes\" />
     <Folder Include="examples" />
