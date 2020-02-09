@@ -5,8 +5,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>{11542c25-45ee-41ea-b937-8363036245f8}</ProjectGuid>
     <ProjectHome />
-    <StartupFile>
-    </StartupFile>
+    <StartupFile>myCode\Pickle.py</StartupFile>
     <SearchPath />
     <WorkingDirectory>.</WorkingDirectory>
     <OutputPath>.</OutputPath>
@@ -171,6 +170,8 @@
     <Content Include="datasets\haiti\PortAuPrince_Roads\PortAuPrince_Roads_sample.jpg" />
     <Content Include="datasets\housing\Housing.csv" />
     <Content Include="datasets\nltk speech codes\nltk speech codes.txt" />
+    <Content Include="datasets\pickle\example.txt" />
+    <Content Include="datasets\pickle\pickle_out.pickle" />
     <Content Include="datasets\plants\Plants.csv" />
     <Content Include="examples\array_ex.txt" />
     <Content Include="examples\ex3.txt" />
@@ -195,6 +196,7 @@
     <Compile Include="myCode\NaturalLanguage.py">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Include="myCode\Pickle.py" />
     <Compile Include="myCode\TestLibrary.py">
       <SubType>Code</SubType>
     </Compile>
@@ -207,6 +209,7 @@
     <Folder Include="datasets\haiti\PortAuPrince_Roads" />
     <Folder Include="datasets\mta_perf" />
     <Folder Include="datasets\housing\" />
+    <Folder Include="datasets\pickle\" />
     <Folder Include="datasets\plants\" />
     <Folder Include="datasets\nltk speech codes\" />
     <Folder Include="examples" />
